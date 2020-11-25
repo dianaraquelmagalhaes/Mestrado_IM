@@ -1,0 +1,71 @@
+<?xml version="1.0" ecnoding="utf-8"?>
+
+<livros>
+<livro id="1">
+    <title>Quinta dos Animais</title>
+    <author>George Orwell</author>
+    <genre>Sátira política</genre>
+    <published>1945</published>
+    <quote>
+    "Todos os animais são iguais, mas alguns são mais iguais que outros."
+    </quote>
+</livro>
+<livro id="2">
+    <title>1984</title>
+    <author>George Orwell</author>
+    <genre>Ficção distópica, Ficção científica</genre>
+    <published>1949</published>
+    <quote>
+    "A liberdade é a liberdade de dizer que dois e dois são quarto. 
+    Uma vez que se reconheça isto, tudo o mais virá por acréscimo."
+    </quote>
+</livro>
+<livro id="3">
+    <title>Admirável Mundo Novo</title>
+    <author>Aldous Huxley</author>
+    <genre>Romance, Ficcção distópica, Ficção científica</genre>
+    <published>1932</published>
+    <quote>
+    "A felicidade é uma soberana exigente, sobretudo a felicidade dos outros.
+    Uma soberana muito mais exigente do que a verdade, quando não se está condicionado para aceitá-la sem restrições."
+    </quote>
+</livro>
+<livro id="4">
+    <title>Lolita</title>
+    <author>Valdimir Nabokov</author>
+    <genre>Romance</genre>
+    <published>1955</published>
+    <quote>
+    "Eu sabia que estava apaixonado por Lotita para sempre;
+    mas também sabia que ela não seria Lolita para sempre."
+    </quote>
+</livro>
+<livro id="5">
+    <title>A Metamorfose</title>
+    <author>Franz Kafka</author>
+    <genre>Novela</genre>
+    <published>1915</published>
+    <quote>
+    "A solidariedade é o sentimento que melhor expressa o respeito pela dignidade humana."
+    </quote>
+</livro>
+<livro id="6">
+    <title>A Morte de Ivan Ilitch</title>
+    <author>Leo Tolstoy</author>
+    <genre>Novela</genre>
+    <published>1886</published>
+    <quote>
+    ""Talvez eu não tivesse vivido como devia ser?", passou-lhe de repente pela cabeça.
+    "Não, mas como pode ser isso se eu fazia tudo da maneira correta?""
+    </quote>
+</livro>
+<livro id="7">
+    <title>A Insustentável Leveza do Ser</title>
+    <author>Milan Kundera</author>
+    <genre>Romance</genre>
+    <published>1984</published>
+    <quote>
+    "Procuramos sempre o peso das responsabilidades, quando o que na verdade almejamos é a leveza da liberdade."
+    </quote>
+</livro>
+</livros>
