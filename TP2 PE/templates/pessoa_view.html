@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block head%}
+<title>{{pessoa['numero']}}</title>
+{% endblock %}
+ 
+{% block body%}
+<style>
+div {
+    margin-top: 80px;
+    margin-left: 80px;
+}</style>
+<div>
+<table class="table table-striped">
+    <tr>
+        <th><font color="black" face="arial" size="3px">Nome</th>
+        <td>{{pessoa.nome}}</td>
+    </tr>
+    <tr>
+        <th><font color="black" face="arial" size="3px">Número</th>        <td>{{pessoa.numero}}</td>
+    </tr>
+    <tr>
+        <th><font color="black" face="arial" size="3px">Idade</th>
+        <td>{{pessoa.idade}}</td>
+    </tr>
+    <tr>
+        <th><font color="black" face="arial" size="3px">Sexo</th>
+        <td>{{pessoa.sexo}}</td>
+    </tr>
+    <tr>
+        <th><font color="black" face="arial" size="3px">Curso</th>
+        <td>{{pessoa.curso}}</td>
+    </tr>
+</table></div>
+{% endblock %}

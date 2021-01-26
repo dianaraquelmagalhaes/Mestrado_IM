@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block head%}
+<title>{{title}}</title>
+{% endblock %}
+
+
+{% block body%}
+<h1>{{title}}</h1>
+<ul>
+    {% for p in relatorios: %}
+        <li><a href="/relatorios/{{p}}">{{p}}</a></li>
+    {% endfor %}
+</ul>
+
+<h1><big><center><font color="black" face="hélvica" size="6px">Adicionar Relatorios
+</font></big></center></h1><hr>
+<center><form action="relatorios" method='post'>
+    <label>Titulo</label><br>
+    <input type="text" name="titulo"><br>
+    <label>Conteudo</label><br>
+    <textarea type="text" name="conteudo"></textarea><br>
+    <input type="submit" value="Submit"/></form></center>
+{% endblock %}
+
